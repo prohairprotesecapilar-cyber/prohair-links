@@ -1,0 +1,633 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>ProHair — Todos os nossos links</title>
+<meta name="description" content="ProHair Prótese Capilar — Fornecedor B2B exclusivo para barbeiros profissionais. Acesse todos os nossos canais.">
+<meta property="og:title" content="ProHair — Todos os nossos links">
+<meta property="og:description" content="Fornecedor de prótese capilar para barbeiros profissionais">
+<meta property="og:type" content="website">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+<style>
+:root {
+  --black: #0A0A0A;
+  --black-soft: #141414;
+  --black-card: #1A1A1A;
+  --gold: #D4AF37;
+  --gold-bright: #F5D061;
+  --gold-deep: #A88629;
+  --silver: #C0C0C0;
+  --silver-soft: #E8E8E8;
+  --white: #FAFAFA;
+  --gray: #888;
+  --gray-dark: #2A2A2A;
+  --whatsapp: #25D366;
+  --green-open: #22C55E;
+  --red-closed: #EF4444;
+  --gradient-gold: linear-gradient(135deg, #F5D061 0%, #D4AF37 50%, #A88629 100%);
+  --gradient-silver: linear-gradient(135deg, #FAFAFA 0%, #C0C0C0 50%, #888 100%);
+}
+
+* { margin: 0; padding: 0; box-sizing: border-box; }
+html { scroll-behavior: smooth; }
+
+body {
+  font-family: 'Inter', sans-serif;
+  background: var(--black);
+  color: var(--white);
+  line-height: 1.6;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  padding: 40px 20px 60px;
+  position: relative;
+  overflow-x: hidden;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+body::before {
+  content: '';
+  position: fixed;
+  inset: 0;
+  background-image: 
+    radial-gradient(ellipse at 20% 10%, rgba(212, 175, 55, 0.12) 0%, transparent 50%),
+    radial-gradient(ellipse at 80% 90%, rgba(212, 175, 55, 0.08) 0%, transparent 50%);
+  pointer-events: none;
+  z-index: 0;
+}
+
+body::after {
+  content: '';
+  position: fixed;
+  inset: 0;
+  background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 200 200' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.9' numOctaves='2'/%3E%3CfeColorMatrix values='0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.05 0'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)'/%3E%3C/svg%3E");
+  pointer-events: none;
+  z-index: 1;
+  opacity: 0.6;
+}
+
+.container {
+  width: 100%;
+  max-width: 460px;
+  position: relative;
+  z-index: 2;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/* HEADER / LOGO */
+.header {
+  text-align: center;
+  margin-bottom: 36px;
+  animation: fadeInDown 0.8s ease-out;
+}
+
+.avatar {
+  width: 110px;
+  height: 110px;
+  margin: 0 auto 24px;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.avatar-bg {
+  position: absolute;
+  inset: 0;
+  background: var(--gradient-gold);
+  border-radius: 50%;
+  padding: 3px;
+}
+
+.avatar-inner {
+  width: 100%;
+  height: 100%;
+  background: var(--black);
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  font-family: 'Plus Jakarta Sans', sans-serif;
+  font-weight: 800;
+  font-size: 22px;
+  letter-spacing: 0.02em;
+  flex-direction: column;
+  line-height: 1;
+}
+
+.avatar-inner .pro { color: var(--silver); }
+.avatar-inner .hair {
+  background: var(--gradient-gold);
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.avatar-inner .sub {
+  font-family: 'Inter', sans-serif;
+  font-size: 7px;
+  letter-spacing: 0.3em;
+  color: var(--silver);
+  text-transform: uppercase;
+  font-weight: 500;
+  margin-top: 4px;
+}
+
+.avatar::before {
+  content: '';
+  position: absolute;
+  inset: -8px;
+  border-radius: 50%;
+  border: 1px solid rgba(212, 175, 55, 0.3);
+  animation: pulse-ring 3s ease-in-out infinite;
+}
+
+@keyframes pulse-ring {
+  0%, 100% { opacity: 0.3; transform: scale(1); }
+  50% { opacity: 0.8; transform: scale(1.05); }
+}
+
+.header h1 {
+  font-family: 'Plus Jakarta Sans', sans-serif;
+  font-size: 28px;
+  font-weight: 800;
+  letter-spacing: -0.01em;
+  margin-bottom: 4px;
+  line-height: 1.2;
+}
+
+.header h1 .gold {
+  background: var(--gradient-gold);
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.header .handle {
+  font-size: 14px;
+  color: var(--gold);
+  font-weight: 500;
+  margin-bottom: 16px;
+}
+
+.header .bio {
+  font-size: 14px;
+  color: var(--silver);
+  line-height: 1.6;
+  max-width: 360px;
+  margin: 0 auto;
+}
+
+/* STATUS BADGE — DINÂMICO */
+.status-badge {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  padding: 8px 16px;
+  border-radius: 999px;
+  font-size: 11px;
+  font-weight: 700;
+  letter-spacing: 0.15em;
+  text-transform: uppercase;
+  margin-top: 18px;
+  transition: all 0.3s ease;
+}
+
+.status-badge.open {
+  background: rgba(34, 197, 94, 0.12);
+  border: 1px solid rgba(34, 197, 94, 0.5);
+  color: var(--green-open);
+}
+
+.status-badge.closed {
+  background: rgba(239, 68, 68, 0.12);
+  border: 1px solid rgba(239, 68, 68, 0.5);
+  color: var(--red-closed);
+}
+
+.status-dot {
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  display: inline-block;
+  position: relative;
+}
+
+.status-badge.open .status-dot {
+  background: var(--green-open);
+  box-shadow: 0 0 0 0 rgba(34, 197, 94, 0.7);
+  animation: pulse-green 2s infinite;
+}
+
+.status-badge.closed .status-dot {
+  background: var(--red-closed);
+}
+
+@keyframes pulse-green {
+  0% { box-shadow: 0 0 0 0 rgba(34, 197, 94, 0.7); }
+  70% { box-shadow: 0 0 0 8px rgba(34, 197, 94, 0); }
+  100% { box-shadow: 0 0 0 0 rgba(34, 197, 94, 0); }
+}
+
+.status-detail {
+  font-size: 12px;
+  color: var(--gray);
+  margin-top: 10px;
+  font-weight: 500;
+  letter-spacing: 0.02em;
+}
+
+/* LINKS */
+.links {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  margin-top: 8px;
+}
+
+.link {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  padding: 18px 22px;
+  background: var(--black-card);
+  border: 1px solid rgba(212, 175, 55, 0.2);
+  border-radius: 12px;
+  color: var(--white);
+  text-decoration: none;
+  transition: all 0.3s ease;
+  position: relative;
+  overflow: hidden;
+  opacity: 0;
+  animation: fadeInUp 0.6s ease-out forwards;
+}
+
+.link:nth-child(1) { animation-delay: 0.1s; }
+.link:nth-child(2) { animation-delay: 0.2s; }
+.link:nth-child(3) { animation-delay: 0.3s; }
+.link:nth-child(4) { animation-delay: 0.4s; }
+.link:nth-child(5) { animation-delay: 0.5s; }
+.link:nth-child(6) { animation-delay: 0.6s; }
+
+.link::before {
+  content: '';
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(135deg, rgba(212, 175, 55, 0.08), transparent);
+  opacity: 0;
+  transition: opacity 0.3s;
+}
+
+.link::after {
+  content: '→';
+  position: absolute;
+  right: 22px;
+  color: var(--gold);
+  font-size: 18px;
+  transition: transform 0.3s, opacity 0.3s;
+  opacity: 0.5;
+}
+
+.link:hover {
+  border-color: var(--gold);
+  transform: translateY(-3px);
+  box-shadow: 0 10px 30px rgba(212, 175, 55, 0.15);
+}
+
+.link:hover::before { opacity: 1; }
+.link:hover::after { 
+  opacity: 1;
+  transform: translateX(4px);
+}
+
+.link:active { transform: translateY(-1px); }
+
+.link-icon {
+  width: 44px;
+  height: 44px;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+  position: relative;
+  z-index: 1;
+}
+
+.link-content {
+  flex: 1;
+  position: relative;
+  z-index: 1;
+  padding-right: 24px;
+}
+
+.link-title {
+  font-family: 'Plus Jakarta Sans', sans-serif;
+  font-size: 15px;
+  font-weight: 700;
+  color: var(--white);
+  letter-spacing: -0.01em;
+  line-height: 1.2;
+  margin-bottom: 2px;
+}
+
+.link-desc {
+  font-size: 12px;
+  color: var(--gray);
+  font-weight: 400;
+}
+
+.icon-whatsapp {
+  background: rgba(37, 211, 102, 0.12);
+  color: var(--whatsapp);
+}
+
+.icon-instagram {
+  background: linear-gradient(135deg, rgba(225, 48, 108, 0.15), rgba(253, 29, 29, 0.15), rgba(252, 176, 69, 0.15));
+  color: #E1306C;
+}
+
+.icon-site {
+  background: rgba(212, 175, 55, 0.12);
+  color: var(--gold);
+}
+
+.icon-loja {
+  background: rgba(212, 175, 55, 0.12);
+  color: var(--gold);
+}
+
+.icon-maps {
+  background: rgba(66, 133, 244, 0.12);
+  color: #4285F4;
+}
+
+.link-featured {
+  background: linear-gradient(135deg, rgba(212, 175, 55, 0.08), rgba(212, 175, 55, 0.02));
+  border: 1px solid rgba(212, 175, 55, 0.5);
+}
+
+.link-featured::after { opacity: 1; }
+
+.link-featured .link-title {
+  background: var(--gradient-gold);
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+/* FOOTER */
+.footer {
+  margin-top: 48px;
+  text-align: center;
+  opacity: 0;
+  animation: fadeInUp 0.6s ease-out 0.8s forwards;
+}
+
+.footer-divider {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 12px;
+  margin-bottom: 20px;
+}
+
+.footer-divider::before,
+.footer-divider::after {
+  content: '';
+  width: 40px;
+  height: 1px;
+  background: linear-gradient(90deg, transparent, var(--gold));
+  opacity: 0.4;
+}
+
+.footer-divider::after {
+  background: linear-gradient(90deg, var(--gold), transparent);
+}
+
+.footer-divider span {
+  color: var(--gold);
+  font-size: 14px;
+}
+
+.footer p {
+  font-size: 11px;
+  color: var(--gray);
+  letter-spacing: 0.15em;
+  text-transform: uppercase;
+  font-weight: 500;
+}
+
+.footer p.made {
+  background: var(--gradient-gold);
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-weight: 700;
+  margin-top: 6px;
+}
+
+@keyframes fadeInDown {
+  from { opacity: 0; transform: translateY(-20px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+@keyframes fadeInUp {
+  from { opacity: 0; transform: translateY(20px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+@media (max-width: 480px) {
+  body { padding: 30px 16px 50px; }
+  
+  .avatar { width: 96px; height: 96px; margin-bottom: 20px; }
+  .avatar-inner { font-size: 19px; }
+  .avatar-inner .sub { font-size: 6px; }
+  
+  .header h1 { font-size: 24px; }
+  .header .bio { font-size: 13px; }
+  
+  .link { padding: 16px 18px; gap: 14px; }
+  .link-icon { width: 40px; height: 40px; }
+  .link-title { font-size: 14px; }
+  .link-desc { font-size: 11px; }
+  .link::after { right: 18px; font-size: 16px; }
+}
+
+@media (min-width: 768px) {
+  body { padding: 60px 20px 80px; }
+  .header { margin-bottom: 44px; }
+}
+</style>
+</head>
+<body>
+
+<div class="container">
+  
+  <!-- HEADER -->
+  <div class="header">
+    <div class="avatar">
+      <div class="avatar-bg"></div>
+      <div class="avatar-inner">
+        <div><span class="pro">PRO</span><span class="hair">HAIR</span></div>
+        <div class="sub">Prótese Capilar</div>
+      </div>
+    </div>
+    <h1>Pro<span class="gold">Hair</span></h1>
+    <div class="handle">@prohairprotesecapilar</div>
+    <p class="bio">Maior fornecedor de prótese capilar do Brasil. Nota máxima no Google e melhor atendimento do mercado.</p>
+    
+    <!-- STATUS DE ATENDIMENTO — DINÂMICO -->
+    <div class="status-badge" id="statusBadge">
+      <span class="status-dot"></span>
+      <span id="statusText">Carregando...</span>
+    </div>
+    <div class="status-detail" id="statusDetail"></div>
+  </div>
+
+  <!-- LINKS -->
+  <div class="links">
+    
+    <a href="https://wa.me/5511938079984?text=Ol%C3%A1!%20Vim%20pelo%20link%20da%20bio%20do%20Instagram%20e%20quero%20saber%20mais%20sobre%20a%20ProHair." target="_blank" class="link link-featured">
+      <div class="link-icon icon-whatsapp">
+        <svg width="22" height="22" viewBox="0 0 24 24" fill="currentColor">
+          <path d="M.057 24l1.687-6.163c-1.041-1.804-1.588-3.849-1.587-5.946.003-6.556 5.338-11.891 11.893-11.891 3.181.001 6.167 1.24 8.413 3.488 2.245 2.248 3.481 5.236 3.48 8.414-.003 6.557-5.338 11.892-11.893 11.892-1.99-.001-3.951-.5-5.688-1.448l-6.305 1.654zm6.597-3.807c1.676.995 3.276 1.591 5.392 1.592 5.448 0 9.886-4.434 9.889-9.885.002-5.462-4.415-9.89-9.881-9.892-5.452 0-9.887 4.434-9.889 9.884-.001 2.225.651 3.891 1.746 5.634l-.999 3.648 3.742-.981zm11.387-5.464c-.074-.124-.272-.198-.57-.347-.297-.149-1.758-.868-2.031-.967-.272-.099-.47-.149-.669.149-.198.297-.768.967-.941 1.165-.173.198-.347.223-.644.074-.297-.149-1.255-.462-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.297-.347.446-.521.151-.172.2-.296.3-.495.099-.198.05-.372-.025-.521-.075-.148-.669-1.611-.916-2.206-.242-.579-.487-.501-.669-.51l-.57-.01c-.198 0-.52.074-.792.372s-1.04 1.016-1.04 2.479 1.065 2.876 1.213 3.074c.149.198 2.095 3.2 5.076 4.487.709.306 1.263.489 1.694.626.712.226 1.36.194 1.872.118.571-.085 1.758-.719 2.006-1.413.248-.695.248-1.29.173-1.414z"/>
+        </svg>
+      </div>
+      <div class="link-content">
+        <div class="link-title">WhatsApp Comercial</div>
+        <div class="link-desc">(11) 93807-9984 — Vendas</div>
+      </div>
+    </a>
+
+    <a href="https://wa.me/5511911816024?text=Ol%C3%A1!%20Vim%20pelo%20link%20da%20bio%20do%20Instagram%20e%20quero%20saber%20mais%20sobre%20a%20ProHair." target="_blank" class="link">
+      <div class="link-icon icon-whatsapp">
+        <svg width="22" height="22" viewBox="0 0 24 24" fill="currentColor">
+          <path d="M.057 24l1.687-6.163c-1.041-1.804-1.588-3.849-1.587-5.946.003-6.556 5.338-11.891 11.893-11.891 3.181.001 6.167 1.24 8.413 3.488 2.245 2.248 3.481 5.236 3.48 8.414-.003 6.557-5.338 11.892-11.893 11.892-1.99-.001-3.951-.5-5.688-1.448l-6.305 1.654zm6.597-3.807c1.676.995 3.276 1.591 5.392 1.592 5.448 0 9.886-4.434 9.889-9.885.002-5.462-4.415-9.89-9.881-9.892-5.452 0-9.887 4.434-9.889 9.884-.001 2.225.651 3.891 1.746 5.634l-.999 3.648 3.742-.981zm11.387-5.464c-.074-.124-.272-.198-.57-.347-.297-.149-1.758-.868-2.031-.967-.272-.099-.47-.149-.669.149-.198.297-.768.967-.941 1.165-.173.198-.347.223-.644.074-.297-.149-1.255-.462-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.297-.347.446-.521.151-.172.2-.296.3-.495.099-.198.05-.372-.025-.521-.075-.148-.669-1.611-.916-2.206-.242-.579-.487-.501-.669-.51l-.57-.01c-.198 0-.52.074-.792.372s-1.04 1.016-1.04 2.479 1.065 2.876 1.213 3.074c.149.198 2.095 3.2 5.076 4.487.709.306 1.263.489 1.694.626.712.226 1.36.194 1.872.118.571-.085 1.758-.719 2.006-1.413.248-.695.248-1.29.173-1.414z"/>
+        </svg>
+      </div>
+      <div class="link-content">
+        <div class="link-title">WhatsApp Comercial</div>
+        <div class="link-desc">(11) 91181-6024 — Vendas</div>
+      </div>
+    </a>
+
+    <a href="https://www.prohairprotesecapilar.com.br/" target="_blank" class="link">
+      <div class="link-icon icon-loja">
+        <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+          <path d="M6 2L3 6v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2V6l-3-4z"></path>
+          <line x1="3" y1="6" x2="21" y2="6"></line>
+          <path d="M16 10a4 4 0 0 1-8 0"></path>
+        </svg>
+      </div>
+      <div class="link-content">
+        <div class="link-title">Loja Online</div>
+        <div class="link-desc">Compre direto pelo nosso site</div>
+      </div>
+    </a>
+
+    <a href="https://instagram.com/prohairprotesecapilar" target="_blank" class="link">
+      <div class="link-icon icon-instagram">
+        <svg width="22" height="22" viewBox="0 0 24 24" fill="currentColor">
+          <path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948 0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98-1.281-.059-1.69-.073-4.949-.073zm0 5.838c-3.403 0-6.162 2.759-6.162 6.162s2.759 6.163 6.162 6.163 6.162-2.759 6.162-6.163c0-3.403-2.759-6.162-6.162-6.162zm0 10.162c-2.209 0-4-1.79-4-4 0-2.209 1.791-4 4-4s4 1.791 4 4c0 2.21-1.791 4-4 4zm6.406-11.845c-.796 0-1.441.645-1.441 1.44s.645 1.44 1.441 1.44c.795 0 1.439-.645 1.439-1.44s-.644-1.44-1.439-1.44z"/>
+        </svg>
+      </div>
+      <div class="link-content">
+        <div class="link-title">Instagram</div>
+        <div class="link-desc">@prohairprotesecapilar</div>
+      </div>
+    </a>
+
+    <a href="https://www.google.com/maps/search/?api=1&query=Centro+Empresarial+Aquarius+Rua+Juiz+David+Barrilli+306+Jardim+Aquarius+S%C3%A3o+Jos%C3%A9+dos+Campos+SP" target="_blank" class="link">
+      <div class="link-icon icon-maps">
+        <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+          <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path>
+          <circle cx="12" cy="10" r="3"></circle>
+        </svg>
+      </div>
+      <div class="link-content">
+        <div class="link-title">Nosso Endereço</div>
+        <div class="link-desc">Jardim Aquarius — São José dos Campos/SP</div>
+      </div>
+    </a>
+
+  </div>
+
+  <div class="footer">
+    <div class="footer-divider">
+      <span>◆</span>
+    </div>
+    <p>© ProHair Prótese Capilar</p>
+    <p class="made">prohairprotesecapilar.com.br</p>
+  </div>
+
+</div>
+
+<script>
+// STATUS DE ATENDIMENTO DINÂMICO
+// Horário: Segunda a Sexta, das 09:00 às 18:30 (horário de Brasília)
+function updateStatus() {
+  // Pega data/hora atual no fuso de Brasília (UTC-3)
+  const now = new Date();
+  const brTime = new Date(now.toLocaleString('en-US', { timeZone: 'America/Sao_Paulo' }));
+  
+  const day = brTime.getDay(); // 0=domingo, 1=segunda, ..., 6=sábado
+  const hours = brTime.getHours();
+  const minutes = brTime.getMinutes();
+  const currentMinutes = hours * 60 + minutes; // minutos desde meia-noite
+  
+  const openMinutes = 9 * 60;      // 09:00 = 540
+  const closeMinutes = 18 * 60 + 30; // 18:30 = 1110
+  
+  const isWeekday = day >= 1 && day <= 5; // segunda a sexta
+  const isWithinHours = currentMinutes >= openMinutes && currentMinutes < closeMinutes;
+  const isOpen = isWeekday && isWithinHours;
+  
+  const badge = document.getElementById('statusBadge');
+  const text = document.getElementById('statusText');
+  const detail = document.getElementById('statusDetail');
+  
+  if (isOpen) {
+    badge.className = 'status-badge open';
+    text.textContent = 'Em atendimento';
+    detail.textContent = 'Respondemos em poucos minutos';
+  } else {
+    badge.className = 'status-badge closed';
+    text.textContent = 'Fora do horário';
+    
+    // Mensagem contextual
+    let nextOpen = '';
+    if (day === 0) { // Domingo
+      nextOpen = 'Voltamos segunda às 09h';
+    } else if (day === 6) { // Sábado
+      nextOpen = 'Voltamos segunda às 09h';
+    } else if (day === 5 && currentMinutes >= closeMinutes) { // Sexta após 18:30
+      nextOpen = 'Voltamos segunda às 09h';
+    } else if (currentMinutes < openMinutes) { // Dia útil antes das 09h
+      nextOpen = 'Abrimos hoje às 09h';
+    } else { // Dia útil após 18:30
+      nextOpen = 'Voltamos amanhã às 09h';
+    }
+    detail.textContent = `Seg a Sex, 09h às 18h30 — ${nextOpen}`;
+  }
+}
+
+updateStatus();
+// Atualiza a cada minuto
+setInterval(updateStatus, 60000);
+</script>
+
+</body>
+</html>
