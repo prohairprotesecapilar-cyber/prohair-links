@@ -28,7 +28,7 @@ fbq('init','1068145648464413');fbq('track','PageView');
 const CONFIG = {
   comissaoMedia: 45,                 // R$ médio que o afiliado ganha por venda
   nomeLojaTikTok: "ProHair",         // nome da loja no TikTok Shop (o afiliado pesquisa por ele)
-  linkLojaTikTok: "",                // link da loja ProHair no TikTok Shop (deixe "" se ainda não tiver)
+  linkLojaTikTok: "https://www.tiktok.com/@prohairprotesecapilar01",                // link da loja ProHair no TikTok Shop (deixe "" se ainda não tiver)
   whatsapp: "5511938079984",
   mensagemWhats: "Olá! Vi a página de afiliados TikTok Shop e quero ser afiliado ProHair.",
 
@@ -114,7 +114,7 @@ section{padding:110px 0;position:relative}
 .hero::before{content:"";position:absolute;width:720px;height:720px;right:-160px;top:-180px;background:radial-gradient(circle,rgba(37,244,238,.28),transparent 62%);z-index:-1}
 .hero::after{content:"";position:absolute;width:640px;height:640px;right:240px;top:180px;background:radial-gradient(circle,rgba(254,44,85,.18),transparent 62%);z-index:-1}
 .hero-grid{display:grid;grid-template-columns:1.05fr .95fr;gap:40px;align-items:center}
-.hero h1{font-size:clamp(42px,6.2vw,78px);font-weight:800;margin-bottom:22px}
+.hero h1{font-size:clamp(38px,5.2vw,66px);font-weight:800;margin-bottom:22px}
 .hero h1 .money{position:relative;white-space:nowrap}
 .hero h1 .money::after{content:"";position:absolute;left:-2%;right:-2%;bottom:6%;height:28%;background:var(--cyan);opacity:.55;z-index:-1;border-radius:4px;transform:skewX(-8deg)}
 .hero .sub{margin-bottom:34px}
@@ -408,7 +408,7 @@ footer p{max-width:620px}
       <a href="#video">Como funciona</a>
       <a href="#ganhos">Quanto ganho</a>
       <a href="#afiliar">Como se afiliar</a>
-      <a href="#videos">Vídeos prontos</a>
+      <a href="#videos" style="display:none">Vídeos prontos</a>
     </nav>
     <a href="#afiliar" class="btn btn-pink">Quero me afiliar</a>
   </div>
@@ -419,7 +419,7 @@ footer p{max-width:620px}
   <div class="wrap hero-grid">
     <div>
       <span class="pill"><span class="dot"></span> Programa de afiliados ProHair no TikTok Shop</span>
-      <h1>Poste vídeos.<br>Ganhe <span class="money">R$<span class="js-com">45</span></span><br><span class="grad">a cada venda.</span></h1>
+      <h1>Seja nosso <span class="money">revendedor</span> no TikTok <span class="grad">e ganhe por cada venda.</span></h1>
       <p class="sub">Divulgue as próteses capilares ProHair no TikTok e receba comissão por cada peça vendida pelo seu vídeo. A gente cuida do estoque, do envio e do cliente. Você só posta.</p>
       <div class="hero-ctas">
         <a href="#afiliar" class="btn btn-main">Começar agora
@@ -489,7 +489,7 @@ footer p{max-width:620px}
       <ul class="checks">
         <li><i>1</i>Por que prótese capilar é um dos produtos que mais chamam atenção no TikTok</li>
         <li><i>2</i>Como funciona a comissão e quando o dinheiro cai na sua conta</li>
-        <li><i>3</i>Os vídeos que mais vendem e como usar os nossos vídeos prontos</li>
+        <li><i>3</i>Os vídeos que mais vendem e como gravar o seu</li>
       </ul>
       <a href="#afiliar" class="btn btn-main">Quero me afiliar
         <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M5 12h14M13 6l6 6-6 6"/></svg></a>
@@ -544,8 +544,8 @@ footer p{max-width:620px}
   <div class="wrap">
     <div class="center rv">
       <span class="pill">🔥 Por que ProHair</span>
-      <h2>Um produto que <span class="grad">para o scroll</span></h2>
-      <p class="sub">Poucos produtos têm um antes e depois tão forte. É o tipo de vídeo que as pessoas assistem até o fim, comentam e compartilham.</p>
+      <h2>Você já é cliente ProHair Prótese Capilar? <span class="grad">Esse é o primeiro passo.</span></h2>
+      <p class="sub">Agora é só fazer um vídeo da sua compra e postar. Pronto: se alguém comprar pela sua divulgação, você ganha dinheiro.</p>
     </div>
     <div class="why">
       <div class="why-card rv"><div class="ic">⚡</div><h3>Transformação na hora</h3><p>O antes e depois de uma prótese é visual, emocionante e impossível de ignorar. Prende nos primeiros segundos.</p></div>
@@ -575,7 +575,7 @@ footer p{max-width:620px}
         <div class="path"><span>Central do Criador</span><span class="arrow">→</span><span>Mercado de Produtos</span></div></div>
       <div class="how-card rv"><div class="num">05</div><h3>Adicione à sua vitrine</h3><p>Escolha as próteses que quer divulgar e toque em "Adicionar à vitrine". Elas aparecem no seu perfil.</p>
         <div class="path"><span>Produto</span><span class="arrow">→</span><span>Adicionar à vitrine</span></div></div>
-      <div class="how-card rv"><div class="num">06</div><h3>Poste com o link</h3><p>Use um dos nossos vídeos prontos. Na tela de publicação, toque em "Adicionar link", escolha o produto ProHair e publique.</p>
+      <div class="how-card rv"><div class="num">06</div><h3>Poste com o link</h3><p>Grave um vídeo mostrando a sua prótese ProHair. Na tela de publicação, toque em "Adicionar link", escolha o produto ProHair e publique.</p>
         <div class="path"><span>Publicar</span><span class="arrow">→</span><span>Adicionar link</span><span class="arrow">→</span><span>ProHair</span></div></div>
     </div>
 
@@ -592,7 +592,7 @@ footer p{max-width:620px}
       </div>
       <div class="req-box alt rv">
         <h4>🌱 Ainda não tem 1.000 seguidores?</h4>
-        <p><b>Comece a postar hoje mesmo</b> com os nossos vídeos prontos. Conteúdo de transformação cresce rápido e os seguidores vêm junto.</p>
+        <p><b>Comece a postar hoje mesmo</b> mostrando a sua prótese. Conteúdo de transformação cresce rápido e os seguidores vêm junto.</p>
         <p>Em algumas contas, o TikTok também libera o <b>Linkshare</b>, um link de comissão para quem ainda não chegou nos 1.000. Veja no TikTok Studio se ele aparece pra você.</p>
         <a href="#" class="btn btn-pink js-whats" style="margin-top:22px">Tirar dúvida no WhatsApp</a>
       </div>
@@ -601,7 +601,8 @@ footer p{max-width:620px}
 </section>
 
 <!-- BIBLIOTECA -->
-<section class="lib-sec" id="videos">
+<!-- BIBLIOTECA OCULTA: para voltar, remova style="display:none" -->
+<section class="lib-sec" id="videos" style="display:none">
   <div class="wrap">
     <div class="lib-head rv">
       <div>
@@ -653,7 +654,7 @@ footer p{max-width:620px}
       <details class="rv"><summary>Preciso comprar produto ou pagar alguma coisa?</summary><p>Não. Você não compra nada e não paga nada para a ProHair. Divulga direto pela vitrine do TikTok Shop.</p></details>
       <details class="rv"><summary>Preciso ser barbeiro ou usar prótese?</summary><p>Não. Qualquer pessoa aprovada como afiliada no TikTok Shop pode divulgar. Barbeiros e quem usa prótese costumam vender mais porque têm conteúdo real pra mostrar.</p></details>
       <details class="rv"><summary>Quando o dinheiro cai na minha conta?</summary><p>Quem paga a comissão é o TikTok, depois que o pedido é entregue e passa o prazo de devolução. Você acompanha tudo na área de Ganhos da Central do Criador.</p></details>
-      <details class="rv"><summary>Posso usar os vídeos prontos da ProHair?</summary><p>Sim, eles foram feitos para isso. Baixe na seção de vídeos, adicione o link do produto e poste. Se você colocar sua voz ou sua opinião por cima, melhor ainda.</p></details>
+      <details class="rv" style="display:none"><summary>Posso usar os vídeos prontos da ProHair?</summary><p>Sim, eles foram feitos para isso. Baixe na seção de vídeos, adicione o link do produto e poste. Se você colocar sua voz ou sua opinião por cima, melhor ainda.</p></details>
       <details class="rv"><summary>Preciso aparecer no vídeo?</summary><p>Não. Dá pra postar só o produto, a transformação, as mãos fazendo a aplicação ou uma narração.</p></details>
       <details class="rv"><summary>Quem atende o cliente depois da compra?</summary><p>A ProHair. Envio, troca e dúvidas sobre o produto ficam com a gente.</p></details>
     </div>
@@ -666,9 +667,9 @@ footer p{max-width:620px}
     <div class="final-box rv">
       <span class="pill" style="background:rgba(255,255,255,.08);border-color:rgba(255,255,255,.15);color:#fff"><span class="dot"></span> Comece hoje</span>
       <h2>Seu próximo vídeo pode ser<br><span class="grad">sua primeira comissão.</span></h2>
-      <p class="sub">20 vendas no mês = <b style="color:#fff" class="js-m20">R$900</b>. Afilie-se, baixe um vídeo pronto e poste hoje.</p>
+      <p class="sub">20 vendas no mês = <b style="color:#fff" class="js-m20">R$900</b>. Afilie-se, grave seu vídeo e poste hoje.</p>
       <div class="hero-ctas">
-        <a href="#" class="btn btn-pink js-loja-link">Ver produtos ProHair no TikTok Shop</a>
+        <a href="#" class="btn btn-pink js-loja-link">Ver a ProHair no TikTok</a>
         <a href="#" class="btn btn-ghost js-whats">Falar no WhatsApp</a>
       </div>
     </div>
